@@ -1,0 +1,50 @@
+.container > div {
+  padding: 15px;
+}
+.container .jumbotron {
+  border-radius: 0;
+  padding-top: 10px;
+  background: url(../images/heading-bg.png);
+}
+@media screen and (min-width: 768px) {
+  h1 small {
+    float: right;
+    padding: .4em;
+    margin-top: -10px;
+  }
+  h4 {
+    text-align: center;
+  }
+}
+body {
+  background: url('../images/background.jpg') no-repeat top center;
+  background-position-y: ;
+  ackground-attachment: fixed;
+  __font-family: 'Noto Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  __font-family: 'Muli', sans-serif;
+  __font-family: 'Hind', sans-serif;
+  __font-family: 'Oxygen', sans-serif;
+  __font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+hr.transparent {
+  border: none;
+  background-color: none;
+}
+h1 span.inverse {
+  background-color: white;
+  padding: 0px 20px;
+}
+div.container.contact {
+  text-align: right;
+  margin-bottom: 20px;
+}
+div.container.contact div {
+  line-height: 30px;
+}
+div.container.contact h4 {
+  text-align: right;
+  padding-right: 2em;
+  font-weight: bold;
+}

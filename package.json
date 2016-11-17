@@ -1,0 +1,39 @@
+{
+  "name": "resume-galvani",
+  "version": "2.1.0",
+  "description": "My Curricullum Vitae",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:galvani/galvani.github.io.git"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "hover.css": "^2.0.2",
+    "reflect-metadata": "^0.1.8"
+  },
+  "devDependencies": {
+    "catw": "^1.0.1",
+    "concurrently": "^2.1.0",
+    "less": "^2.7.1",
+    "lite-server": "^2.2.0",
+    "minimatch": "^3.0.3",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build-css": "./node_modules/.bin/lessc ./src/less/resume.less > ./css/resume.css",
+    "watch-css": "./node_modules/.bin/catw -w './src/less/*.less' -c 'npm run build-css'",
+    "watch": "npm run watch-css",
+    "go": "concurrently \"npm run watch\" \"npm run serve\"",
+    "serve": "npm run build && lite-server",
+    "build": "npm run build-css"
+  },
+  "keywords": [
+    "Jan Kozak",
+    "Resume",
+    "CV"
+  ],
+  "author": "Jan Kozak <galvani78@gmail.com>",
+  "license": "MIT"
+}
