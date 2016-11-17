@@ -17,8 +17,8 @@
   }
 }
 body {
-  background: url('../images/background.jpg') no-repeat top center;
-  background-position-y: ;
+  background: url('../images/background.jpg') no-repeat center;
+  background-position-y: 0px;
   ackground-attachment: fixed;
   __font-family: 'Noto Sans', sans-serif;
   font-family: 'Titillium Web', sans-serif;
@@ -28,9 +28,15 @@ body {
   __font-family: 'Cabin', sans-serif;
   font-size: 18px;
 }
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 hr.transparent {
   border: none;
-  background-color: none;
+  background-color: transparent;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 h1 span.inverse {
   background-color: white;
@@ -38,9 +44,11 @@ h1 span.inverse {
 }
 div.container.contact {
   text-align: right;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 div.container.contact div {
+  height: 100px;
+  background: white;
   line-height: 30px;
 }
 div.container.contact h4 {

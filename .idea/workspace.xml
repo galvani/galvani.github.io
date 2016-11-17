@@ -2,114 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="68fab1bb-1b6d-4430-a1f5-af73e83c8e2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/bootstrap-basics-overides.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/hover-min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/resume.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/resume.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-114x114-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-144x144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-57x57-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-72x72-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/crossdomain.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/css.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/extend.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/faq.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/html.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/misc.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/usage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/bulb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/poi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cancel-off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cancel-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/color1_section_bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/color2_section_bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/color3_section_bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/headings/h1-curriculum.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/left-column.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/star-half.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/star-off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/star-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/timeline_century_tick.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/timeline_decade_tick.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/colorbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/colorbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/loading_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/timeliner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/timeliner.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/img/cancel-off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/img/cancel-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/img/star-half.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/img/star-off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/img/star-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.raty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.raty.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/icons/bulb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/icons/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/icons/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/icons/mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/icons/phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/icons/poi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/img/headings/h1-curriculum.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/public_html/js/libs/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/curriculum-vitae/sources/Resume_PSD_Template.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/separator.psd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cv-2013.iml" afterPath="$PROJECT_DIR$/.idea/cv-2013.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background.jpg" afterPath="$PROJECT_DIR$/images/background.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.css" afterPath="$PROJECT_DIR$/css/resume.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/resume.less" afterPath="$PROJECT_DIR$/src/less/resume.less" />
     </list>
     <ignored path="cv-2013.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,26 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.30258304">
+              <caret line="180" column="68" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
               <folding>
-                <marker date="1479328157010" expanded="true" signature="1338:1584" placeholder="..." />
-                <marker date="1479328157010" expanded="true" signature="1431:1456" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/vendor/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="180" column="17" selection-start-line="170" selection-start-column="8" selection-end-line="180" selection-end-column="17" />
-              <folding>
-                <marker date="1394012346000" expanded="true" signature="2074:2381" placeholder="..." />
+                <element signature="n#style#0;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1479405606799" expanded="true" signature="1338:1584" placeholder="..." />
+                <marker date="1479405606799" expanded="true" signature="1431:1456" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -160,8 +45,11 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding />
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <marker date="1479327485085" expanded="true" signature="0:1038" placeholder="{&quot;name&quot;: &quot;resume-galvani&quot;...}" />
+                <marker date="1479327485085" expanded="true" signature="235:352" placeholder="{&quot;bootstrap&quot;: &quot;^3.3.7&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,18 +57,8 @@
       <file leaf-file-name="resume.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/less/resume.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5185184">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/resume.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34670946">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state vertical-scroll-proportion="-12.222222">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -189,8 +67,8 @@
       <file leaf-file-name="bootstrap-basics-overides.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/less/bootstrap-basics-overides.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state vertical-scroll-proportion="-5.3333335">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -200,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -225,10 +103,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/css/resume.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/less/bootstrap-basics-overides.less" />
-        <option value="$PROJECT_DIR$/src/less/resume.less" />
         <option value="$PROJECT_DIR$/js/resume.js" />
+        <option value="$PROJECT_DIR$/src/less/resume.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -241,10 +119,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="503" />
-    <option name="y" value="118" />
-    <option name="width" value="1360" />
-    <option name="height" value="765" />
+    <option name="x" value="1919" />
+    <option name="y" value="596" />
+    <option name="width" value="1368" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -384,8 +262,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,10 +331,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="503" y="118" width="1360" height="765" extended-state="0" />
+    <frame x="1919" y="596" width="1368" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12537993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12462236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -464,7 +342,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31087288" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -489,10 +367,66 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1479405606799" expanded="true" signature="1338:1584" placeholder="..." />
+            <marker date="1479405606799" expanded="true" signature="1431:1456" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1479327485085" expanded="true" signature="0:1038" placeholder="{&quot;name&quot;: &quot;resume-galvani&quot;...}" />
+            <marker date="1479327485085" expanded="true" signature="235:352" placeholder="{&quot;bootstrap&quot;: &quot;^3.3.7&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/resume.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/bootstrap-basics-overides.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479328157010" expanded="true" signature="1338:1584" placeholder="..." />
-            <marker date="1479328157010" expanded="true" signature="1431:1456" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1479405606799" expanded="true" signature="1338:1584" placeholder="..." />
+            <marker date="1479405606799" expanded="true" signature="1431:1456" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -505,21 +439,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vendor/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="180" column="17" selection-start-line="170" selection-start-column="8" selection-end-line="180" selection-end-column="17" />
-          <folding>
-            <marker date="1394012346000" expanded="true" signature="2074:2381" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
+          <folding>
+            <marker date="1479327485085" expanded="true" signature="0:1038" placeholder="{&quot;name&quot;: &quot;resume-galvani&quot;...}" />
+            <marker date="1479327485085" expanded="true" signature="235:352" placeholder="{&quot;bootstrap&quot;: &quot;^3.3.7&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -542,7 +469,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -550,17 +477,10 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vendor/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="180" column="17" selection-start-line="170" selection-start-column="8" selection-end-line="180" selection-end-column="17" />
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <marker date="1394012346000" expanded="true" signature="2074:2381" placeholder="..." />
+            <marker date="1479327485085" expanded="true" signature="0:1038" placeholder="{&quot;name&quot;: &quot;resume-galvani&quot;...}" />
+            <marker date="1479327485085" expanded="true" signature="235:352" placeholder="{&quot;bootstrap&quot;: &quot;^3.3.7&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -573,38 +493,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/resume.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="21" />
-          <folding>
-            <marker date="1479328157010" expanded="true" signature="1338:1584" placeholder="..." />
-            <marker date="1479328157010" expanded="true" signature="1431:1456" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/bootstrap-basics-overides.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/resume.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5185184">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state vertical-scroll-proportion="-12.222222">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/resume.js">
+    <entry file="file://$PROJECT_DIR$/src/less/bootstrap-basics-overides.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34670946">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30258304">
+          <caret line="180" column="68" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1479405606799" expanded="true" signature="1338:1584" placeholder="..." />
+            <marker date="1479405606799" expanded="true" signature="1431:1456" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
