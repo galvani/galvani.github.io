@@ -17,7 +17,7 @@
   }
 }
 body {
-  background: url('../images/background-bak.jpg') no-repeat center;
+  background: url('../images/background.jpg') center;
   background-position-y: 0px;
   ackground-attachment: fixed;
   __font-family: 'Noto Sans', sans-serif;
