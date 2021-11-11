@@ -17,7 +17,7 @@
   }
 }
 body {
-  background: url('../images/background.jpg') no-repeat center;
+  background: url('../images/background-bak.jpg') no-repeat center;
   background-position-y: 0px;
   ackground-attachment: fixed;
   __font-family: 'Noto Sans', sans-serif;
@@ -54,5 +54,10 @@ div.container.contact div {
 div.container.contact h4 {
   text-align: right;
   padding-right: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  -webkit-text-stroke: 1px black;
   font-weight: bold;
 }
