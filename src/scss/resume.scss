@@ -1,0 +1,129 @@
+@import "bootstrap/scss/bootstrap";
+
+h1 {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+/* Outer container styling with rounded corners */
+.row.d-flex.align-items-stretch.mb-4 {
+  border-radius: 8px; /* Rounded corners for the entire outer container */
+  overflow: hidden; /* Ensures inner blocks stay confined within the rounded container */
+}
+
+/* Individual blocks inside the container */
+.skills-section, .languages-section {
+  background-color: #e9ecef; /* Background for inner blocks */
+  color: #000000;
+  padding: 2rem;
+  box-shadow: none; /* Simplify the look with no extra shadows */
+  border-radius: 0; /* Remove rounding for the inner sections */
+  border-right: 1px solid #222c57; /* Dark border separating the inner blocks */
+}
+
+/* Remove the right border for the last section */
+.languages-section {
+  border-right: none;
+}
+
+/* Block headings styling */
+.skills-section h4, .languages-section h4 {
+  color: #222c57; /* Ensure consistent heading color */
+}
+
+/* Timeline Styling */
+.timeline-container {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.timeline-wrapper {
+  position: relative;
+  margin: 0 0 20px 140px;
+}
+
+.timeline-time {
+  display: block;
+  width: 65px;
+  margin-left: -100px;
+  padding: 5px;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.timeline-series {
+  position: relative;
+  margin: 0 0 0 40px;
+  padding: 0;
+}
+
+.timeline-event {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.timeline-event a {
+  cursor: pointer;
+  background: #222c57;
+  color: wheat !important;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.timeline-event-content {
+  display: none;
+  background: #e9ecef;
+  border-left: 3px solid #222c57;
+  padding: 15px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.timeline-event-content h3 {
+  margin-top: 0;
+  color: #222c57;
+}
+
+.timeline-event-content p {
+  margin: 0 0 10px;
+}
+
+.timeline-event-content:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #e9ecef;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Timeline controls */
+.timeline-toggle {
+  margin: 0 0 15px 60px;
+}
+
+.timeline-toggle a {
+  color: #adb5bd;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.timeline-toggle a:hover {
+  text-decoration: underline;
+}
