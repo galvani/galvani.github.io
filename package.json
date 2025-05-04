@@ -19,7 +19,7 @@
     "sass": "^1.66.1",
     "lite-server": "^2.2.0",
     "minimatch": "^3.0.3",
-    "watchify": "^3.7.0"
+    "watchify": "^3.11.1"
   },
   "scripts": {
     "build-css": "sass --load-path=node_modules src/scss/resume.scss css/resume.css",
