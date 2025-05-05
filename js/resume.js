@@ -25,6 +25,8 @@ $(document).ready(function () {
     });
 
     setTimeout(function() {
+        $('#job2025').trigger('click');
+        $('#job2024').trigger('click');
         $('#job2023').trigger('click');
         $('#job2021').trigger('click');
         $('#job2021_2').trigger('click');
