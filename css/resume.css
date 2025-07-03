@@ -11850,38 +11850,72 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-h1, .h1 {
-  margin-top: 1rem;
-  padding: 1rem;
+body {
+  background-color: #f5f5f5;
+  font-family: "Muli", sans-serif;
 }
 
-/* Outer container styling with rounded corners */
-.row.d-flex.align-items-stretch.mb-4 {
-  border-radius: 8px; /* Rounded corners for the entire outer container */
-  overflow: hidden; /* Ensures inner blocks stay confined within the rounded container */
+h1, .h1, h4, .h4 {
+  font-family: "Titillium Web", sans-serif;
 }
 
-/* Individual blocks inside the container */
+a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 2rem 0;
+}
+
+.profile-section {
+  background-color: #222c57;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px 0 0 12px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+  background-color: #e9ecef;
+  padding: 2rem;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+}
+.contact-section strong {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
 .skills-section, .languages-section {
-  background-color: #e9ecef; /* Background for inner blocks */
+  background-color: #e9ecef;
   color: #000000;
   padding: 2rem;
-  box-shadow: none; /* Simplify the look with no extra shadows */
-  border-radius: 0; /* Remove rounding for the inner sections */
-  border-right: 1px solid #222c57; /* Dark border separating the inner blocks */
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  border-right: 1px solid #222c57;
+}
+.skills-section h4, .skills-section .h4, .languages-section h4, .languages-section .h4 {
+  color: #222c57;
 }
 
-/* Remove the right border for the last section */
+.skills-section strong {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
 .languages-section {
   border-right: none;
 }
-
-/* Block headings styling */
-.skills-section h4, .skills-section .h4, .languages-section h4, .languages-section .h4 {
-  color: #222c57; /* Ensure consistent heading color */
+.languages-section h4, .languages-section .h4 {
+  border-bottom: 2px solid #ffd34e;
+  display: inline-block;
+  padding-bottom: 0.2rem;
 }
 
-/* Timeline Styling */
 .timeline-container {
   width: 100%;
   margin: 20px auto;
@@ -11914,7 +11948,6 @@ h1, .h1 {
   position: relative;
   margin-bottom: 15px;
 }
-
 .timeline-event a {
   cursor: pointer;
   background: #222c57;
@@ -11934,16 +11967,13 @@ h1, .h1 {
   margin-left: 20px;
   position: relative;
 }
-
 .timeline-event-content h3, .timeline-event-content .h3 {
   margin-top: 0;
   color: #222c57;
 }
-
 .timeline-event-content p {
   margin: 0 0 10px;
 }
-
 .timeline-event-content:before {
   content: "";
   position: absolute;
@@ -11962,20 +11992,149 @@ h1, .h1 {
   visibility: hidden;
 }
 
-/* Timeline controls */
 .timeline-toggle {
   margin: 0 0 15px 60px;
 }
-
 .timeline-toggle a {
   color: #adb5bd;
   text-decoration: none;
   font-weight: bold;
   margin-right: 15px;
 }
-
 .timeline-toggle a:hover {
   text-decoration: underline;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0.5cm;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 10pt;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+  }
+  h1, .h1 {
+    font-size: 18pt;
+  }
+  h2, .h2 {
+    font-size: 16pt;
+  }
+  h3, .h3 {
+    font-size: 14pt;
+  }
+  h4, .h4 {
+    font-size: 12pt;
+  }
+  .timeline-toggle,
+  script,
+  iframe,
+  footer {
+    display: none !important;
+  }
+  .profile-section,
+  .contact-section,
+  .skills-section,
+  .languages-section {
+    background-color: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    padding: 0.5cm !important;
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    color: black !important;
+    page-break-after: avoid;
+  }
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+    color: #333;
+  }
+  a[href^="javascript:"]:after, a[href^="#"]:after, a[href^="mailto:"]:after {
+    content: "";
+  }
+  .timeline-wrapper {
+    margin-bottom: 0.5cm;
+    page-break-inside: avoid;
+  }
+  .timeline-event-content {
+    margin-left: 0.5cm !important;
+    page-break-inside: avoid;
+    display: block !important;
+    height: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  [style*="color:gold;"],
+  [style*="color:blue;"] {
+    color: black !important;
+  }
+  .row {
+    page-break-inside: avoid;
+  }
+  .text-white-50 {
+    color: #333 !important;
+  }
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0.2cm !important;
+  }
+  .page-break-after {
+    page-break-after: always;
+  }
+  .page-break-before {
+    page-break-before: always;
+  }
+  .no-page-break {
+    page-break-inside: avoid;
+  }
+  .bg-light {
+    background-color: white !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+  }
+  .text-body-tertiary,
+  .text-secondary-emphasis {
+    color: black !important;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  body {
+    zoom: 0.95;
+  }
+}
+@media (max-width: 767.98px) {
+  .row .skills-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row .skills-section {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .row .skills-section {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
 }
 
 /*# sourceMappingURL=resume.css.map */

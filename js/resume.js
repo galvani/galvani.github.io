@@ -31,6 +31,7 @@ $(document).ready(function () {
         $('#job2021').trigger('click');
         $('#job2021_2').trigger('click');
         $('#job2017').trigger('click');
+        $('#job2020').trigger('click');
     }, 100);
 
 });
