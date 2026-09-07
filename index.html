@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -211,7 +211,7 @@ a.tool-link::after { content: " ↗"; font-size: 11px; color: var(--faint); font
       <!-- kanban-pro -->
       <div class="repo">
         <div class="repo-top">
-          <a class="repo-name" href="https://github.com/galvani/kanban-pro" target="_blank" rel="noopener">kanban-pro</a>
+          <a class="repo-name" href="https://github.com/galvani/kanban-pro" target="_blank" rel="noopener">kanban-pro(vider)</a>
           <span class="badge">Public · AGPL-3.0</span>
         </div>
         <p class="repo-lead">An augmenting proxy that gives coding agents one canonical, MCP-driven board over any kanban backend.</p>
@@ -219,18 +219,19 @@ a.tool-link::after { content: " ↗"; font-size: 11px; color: var(--faint); font
           <li><b>Anti-corruption layer</b> (ports &amp; adapters): front an existing kanban — a Jira board, a Hermes board — or use the native store, all behind one API, and <b>mirror and move cards across boards</b> to keep multiple kanbans in sync. It began as that proxy and grew into a complete standalone board.</li>
           <li><b>Atomic claim/lease</b> as a single-statement compare-and-swap — two agents never take the same card, and a crashed agent's lease expires so the card is redelivered.</li>
           <li><b>Server-side workflow enforcement</b> and agent-to-agent escalation, with structured "current-truth" work reports and an append-only change-feed making the board — not a transcript — the source of truth.</li>
+          <li>Its <b>dispatcher</b> turns the board into a running fleet of agents from different vendors: it wakes on the change-feed, infers success <b>structurally from board state</b> and never parses worker output, with poison-card retry caps and <b>quota-parking</b> for unattended runs.</li>
         </ul>
         <p class="repo-status"><span class="k">Built</span>native + Hermes adapters (live 172-card migration) &nbsp;·&nbsp; <span class="k">Roadmap</span>Jira / Trello adapters</p>
         <div class="repo-meta">
           <span class="lang"><span class="dot python"></span>Python</span>
-          <span class="tags">MCP · SQLite · Ports &amp; adapters</span>
+          <span class="tags">MCP · SQLite · systemd · Ports &amp; adapters</span>
         </div>
       </div>
 
       <!-- model-pro -->
       <div class="repo">
         <div class="repo-top">
-          <span class="repo-name">model-pro</span>
+          <span class="repo-name">model-pro(vider)</span>
           <span class="badge soon">Coming soon</span>
         </div>
         <p class="repo-lead">A self-hosted, OpenAI-compatible inference gateway fronting local and cloud backends on one GPU.</p>
@@ -244,24 +245,6 @@ a.tool-link::after { content: " ↗"; font-size: 11px; color: var(--faint); font
         <div class="repo-meta">
           <span class="lang"><span class="dot python"></span>Python</span>
           <span class="tags">FastAPI · CUDA/VRAM · Virtual models · Evals</span>
-        </div>
-      </div>
-
-      <!-- kanban-dispatcher -->
-      <div class="repo">
-        <div class="repo-top">
-          <span class="repo-name">kanban-dispatcher</span>
-          <span class="badge soon">To be published</span>
-        </div>
-        <p class="repo-lead">Turns a kanban-pro board into a running agent fleet.</p>
-        <ul class="repo-points">
-          <li>Infers success <b>structurally from board state</b> — it never parses worker output.</li>
-          <li>Hardened for unattended runs: poison-card retry caps, <b>quota-parking</b> that reschedules without burning retries, and crash-safe redelivery inherited from the board's leases.</li>
-          <li>Wakes on the change-feed — pickup latency <b>30s → 2s</b>.</li>
-        </ul>
-        <div class="repo-meta">
-          <span class="lang"><span class="dot python"></span>Python</span>
-          <span class="tags">MCP client · systemd · Daemon</span>
         </div>
       </div>
 
